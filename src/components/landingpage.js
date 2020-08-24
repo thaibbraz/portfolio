@@ -13,9 +13,9 @@ render(){
             alt="avatar"
             className="avatar-img"/>
             <div className="banner-text">
-                <h1>Full Stack Web Developer</h1>
+                <h1>Software developer junior</h1>
             <hr/>
-            <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | MongoDB</p>
+            <p>Android Studio | C# | JavaScript | React | Java | NodeJS | MongoDB</p>
             <div className="social-links">
              {/*LinkedIn */}
             <a href="https://www.linkedin.com/in/thain%C3%A1-braz/" rel="noopener noreferrer">

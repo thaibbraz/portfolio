@@ -20,15 +20,16 @@ render(){
 
             <h2 style={{paddingTop: '1em'}}>Thainá Braz</h2>
             <h4 style={{color: 'grey'}}>Programmer</h4>
+            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/> 
+            <p>   I am a computer science student very passionate about technology in general,
+              management and learning. I consider myself a communicative person who is
+                always willing to helping others.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
+
             <h5>Phone</h5>
-            <p>(123) 456-7890</p>
+            <p>(+351) 912 115 074</p>
             <h5>Email</h5>
-            <p>someone@example.com</p>
+            <a>thainabbraz@gmail.com</a>
            
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
@@ -36,19 +37,23 @@ render(){
             <h2>Education</h2>
 
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+             
+              
+              schoolName="Bachelor in Computer Science "
+              schoolDescription=" ESTG - School of Technology and Management – Campus 2 - Morro do Lena, Alto do Vieiro, Apt 4163, Leiria, Portugal "
                />
 
                <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName="My 2nd University"
-                 schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+
+                 schoolName="Introduction to IoT"
+                 schoolDescription="Cisco Networking Academ"
                   />
-            
+                <Education
+                 
+                    schoolName="Erasmus Experience"
+                    schoolDescription="University of Antwerp"
+                      />
+                
           
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
@@ -56,38 +61,35 @@ render(){
 
             
               <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+
+              jobName="As raparigas do código - Co-founder"
+              jobDescription="We work as a team creating workshops and teaching how to
+              code for free for girls in Portugal. The project was created in order to shorten 
+              the gender gap on tech area.  https://raparigasdocodigo.pt/"
               />
-                    <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName="Second Job"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                <Experience
+              
+                jobName="Rede ex aequo - Volunteer"
+                jobDescription="LGBTI Education project
+                The LGBTI Education Project is a project of the ex aequo network - an
+                association of young lesbian, gay, bisexual, trans, intersex and supporters,
+                which was financially supported by the European Youth Foundation of the
+                Council of Europe, between January and September 2005, as a project -pilot.
+                This is an ongoing project of the association that aims at an educational
+                intervention through the dissemination of information on the themes of
+                homosexuality, bisexuality, gender identity and expression, and, sexual
+                biology between teachers and students from the 7th to the 12th year, teacher
+                educators, teachers Higher Education trainees and students."
                 />
-         
+          <Experience
+              
+              jobName="Movimento LGBTI Leiria - Co-founder"
+              jobDescription="LGBTI Leiria is a activist organization created in Leiria in order support LGBTI+ community and promove the 1st LGBTI pride march in Leiria.
+              It will be attended by human rights organizations, social support associations, humanitarian organizations. The initiative has the support of the Municipality of Leiria. 
+              "
+              />
 
               <hr style={{borderTop: '3px solid #e22947'}} />
-              <h2>Skills</h2>
-              <Skills
-                skill="javascript"
-                progress={100}
-                />
-                 <Skills
-                  skill="HTML/CSS"
-                  progress={80}
-                  />
-                  <Skills
-                    skill="NodeJS"
-                    progress={50}
-                    />
-                    <Skills
-                      skill="React"
-                      progress={25}
-                      />
-
 
           </Cell>
         </Grid>
